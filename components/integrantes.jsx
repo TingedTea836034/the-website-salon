@@ -49,8 +49,18 @@ function Integrantes (){
     return(
         <div className='container-full'>
         
+        <p className='banner'>ARGM for friends</p>
+
+        <div className='eleccion-contenido-cards'>
+            <div className="integrantes">
+                <h1>Integrantes</h1>
+                <p>descripcion</p>
+            </div>
+            <div className="sinfuncion">
+                
+            </div>
            
-            
+        </div>
 
         <div className="arboldeintegrantes">
         <motion.div
