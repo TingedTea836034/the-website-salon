@@ -1,0 +1,40 @@
+{
+  "hash": "c0c1aad9",
+  "configHash": "cfba1720",
+  "lockfileHash": "2ebad99d",
+  "browserHash": "5502c518",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c878b90e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "18d46715",
+      "needsInterop": true
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "e92727c3",
+      "needsInterop": false
+    },
+    "react-parallax-tilt": {
+      "src": "../../node_modules/react-parallax-tilt/dist/modern/index.js",
+      "file": "react-parallax-tilt.js",
+      "fileHash": "0c5ff653",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ZYJWWRTW": {
+      "file": "chunk-ZYJWWRTW.js"
+    },
+    "chunk-N3BBKUNS": {
+      "file": "chunk-N3BBKUNS.js"
+    }
+  }
+}
