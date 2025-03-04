@@ -57,7 +57,8 @@ function Integrantes (){
                 <p>descripcion</p>
             </div>
             <div className="sinfuncion">
-                
+            <h1>sin funcion</h1>
+            <p>descripcion</p>
             </div>
            
         </div>
