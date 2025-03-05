@@ -71,47 +71,53 @@
     
 }
 .integrantes{
-    background: #000b15;
+    border-radius: 20px;
+    background: #00529e28;
     box-shadow:  
     -5px 5px 10px #000408,
     5px -5px 10px #001222;
     width: 50%;
     height: 100%;
+    margin: 1rem 1rem;
+    border: 1px solid rgba(224, 224, 224, 0.575);
     
 }
 .integrantes h1{
     width: 80%;
     height: auto;
     padding: 0.5rem;
-    border-radius: 10px;
     margin: 0.5rem auto;
-    background: #000b15;
-    box-shadow:  
-    -5px 5px 10px #000408,
-    5px -5px 10px #001222;
     text-align: center;
+    background: transparent;
+    color: rgba(224, 224, 224, 0.925);
+    border-bottom: 1px solid white;
 }
 .integrantes p{
-    
     width: 80%;
     height: 80%;
     padding: 0.5rem;
     border-radius: 10px;
     margin: 0.5rem auto;
-    background: #000b15;
-    box-shadow:  
-    -5px 5px 10px #000408,
-    5px -5px 10px #001222;
     text-align: center;
+    background: transparent;
+    color: rgba(224, 224, 224, 0.925);
     
+}
+.integrantes:hover{
+    transition: transform 0.1s ease;
+    background-color: rgba(66, 66, 228, 0.075);
+    transform: scale(1.01);
 }
 
 .sinfuncion{
-    background: #000b15;
+    border-radius: 20px;
+    background: #00529e28;
     box-shadow:  
     -5px 5px 10px #000408,
     5px -5px 10px #001222;
     width: 50%;
     height: 100%;
+    margin: 1rem 1rem;
+    border: 1px solid rgba(224, 224, 224, 0.575);
 }
 
