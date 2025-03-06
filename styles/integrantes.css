@@ -42,7 +42,7 @@
     -5px 5px 10px #000408,
     5px -5px 10px #001222;
     border-radius: 15px;
-    margin-bottom: 20rem;
+    margin-bottom: 12rem;
     transition: transform 0.3s ease;
    
    
@@ -93,6 +93,8 @@
     border-bottom: 1px solid white;
 }
 .integrantes p{
+    display: flex;
+    flex-direction: column;
     width: 80%;
     height: 80%;
     padding: 0.5rem;
@@ -101,6 +103,9 @@
     text-align: center;
     background: transparent;
     color: rgba(224, 224, 224, 0.925);
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 .integrantes:hover{
@@ -119,5 +124,21 @@
     height: 100%;
     margin: 1rem 1rem;
     border: 1px solid rgba(224, 224, 224, 0.575);
+}
+
+.btn-eleccion{
+    width: 40%;
+    height: auto;
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 1rem;
+
+}
+
+.btn-eleccion:hover{
+    background-color: #7d9fbd59;
 }
 
