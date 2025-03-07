@@ -142,3 +142,22 @@
     background-color: #7d9fbd59;
 }
 
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 1rem;
+    
+}
+
+.header .banner{
+    width: 40%;
+}
+
+
+
+
+
+

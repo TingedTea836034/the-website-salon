@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import '../styles/integrantes.css'
 import { useState,useEffect} from 'react';
+import Nav from './nav';
 
 
 
@@ -52,8 +53,10 @@ function Integrantes (){
 
     return(
         <div className='container-full'>
-        
-        <p className='banner'>ARGM for friends</p>
+        <div className="header">
+            <p className='banner'>ARGM for friends</p>
+            <Nav></Nav>
+        </div>
 
         {opcion === null && (
               <div className='eleccion-contenido-cards'>
