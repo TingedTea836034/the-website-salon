@@ -1,14 +1,16 @@
 *{
     background-color:#000b15;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.container-full{
+.container-full-integrantes{
     max-width: 100vw;
-    min-height: 300vh;
+    min-height: 90vh;
+    max-height: 275vh;
     color: white;
     position: relative;
     transition: all 0.3s ease;
-    overflow: hidden;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .linea {
     position: absolute;
@@ -26,6 +28,7 @@
     border-radius: 61px;
     background: #000b15;
     width: 100%; 
+    height: 240vh;
     margin-top: 30vh; 
     padding: 20px; 
     transition: transform 0.3s ease-in-out;
@@ -66,7 +69,8 @@
     width: 100vw;
     height: 80vh;
     align-items: center;
-    margin: auto 1rem;
+    margin: auto auto;
+    margin-top: 1.9rem;
     
     
 }
@@ -80,7 +84,7 @@
     height: 100%;
     margin: 1rem 1rem;
     border: 1px solid rgba(224, 224, 224, 0.575);
-    
+    font-weight: 800;
 }
 .integrantes h1{
     width: 80%;
@@ -135,7 +139,7 @@
     border-radius: 20px;
     font-weight: 800;
     font-size: 1rem;
-
+    border: 2px solid white;
 }
 
 .btn-eleccion:hover{
@@ -148,7 +152,7 @@
     grid-template-rows: 1fr;
     width: 100vw;
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
     
 }
 

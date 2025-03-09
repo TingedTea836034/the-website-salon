@@ -1,5 +1,6 @@
 import '../styles/portada.css'
 import React, { useEffect, useState } from 'react';
+import Nav from './nav';
 
 
 function Portada () {
@@ -19,12 +20,8 @@ function Portada () {
     }, []);
 
     return (
-       
-        <div className="container-full">
-          <div className='banner'>ARGM for friends</div>
-          <nav>
-            
-          </nav>
+        
+        <div className="container-full-portada">
           <div className='texto-portada'>
            <p className='texto-animacion'>{textobienvenida[currentTextIndex]}</p>
           </div>
